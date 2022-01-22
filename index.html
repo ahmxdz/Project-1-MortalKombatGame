@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mortal Kombat</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <!-- <script defer src="scriptEnchanced.js"></script> -->
+    <link href="http://fonts.cdnfonts.com/css/mortal-kombat" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="title">
+      <img class="mortalkombatlogo" src="img/MortalKombatLogo.png" /> MORTAL
+      KOMBAT (1950)
+    </h1>
+    <div class="redline"></div>
+
+    <div class="maincontainer">
+      <div class="gameWrapper">
+        <div class="playerbtncontainer">
+          <div class="player"> </div>
+          <div class="playerhealthbarcontainer"> 
+          <div class="playerhealthbar">
+            <span id="playerHealthAmount">100 </span> 
+          </div>
+        </div>
+          <div class="playerbtnwrapper">
+            <button id="playerHealbtn" class="playerHealbtn">HEAL</button>
+            <button id="playerAttackbtn" class="playerAttackbtn">ATTACK</button>
+          </div>
+        </div>
+        <div class="classmiddlecontrols">
+          <div class="playercputurnfeed"></div>
+          <div class="versusLogo">VS</div>
+          <button id="resetBtn" class="resetBtn">RESET GAME</button>
+          <div class="gameFeed">Game Feed</div>
+        </div>
+
+        <div class="classcomputerbtncontainer">
+          <div class="computer"></div>
+                <div class="computerhealthbarcontainer">
+                <div class="computerhealthbar">
+                <span id="computerHealthAmount">100 </span> 
+          </div>
+        </div>
+          <div class="computerbtnwrapper">
+            <button id="computerHealbtn" class="computerHealbtn">HEAL</button>
+            <button id="computerAttackbtn" class="computerAttackbtn">
+              ATTACK
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
