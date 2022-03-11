@@ -22,7 +22,7 @@ const playerCurrentHealthAmountElem = document.getElementById('playerHealthAmoun
 
 const cpuCurrentHealthAmountElem = document.getElementById('computerHealthAmount')
 
-// Randon Attack and Heal math
+// Random Attack and Heal math
 
 const randomNumberAttack = () => Math.floor((Math.random() * (25))+ 1)
 
